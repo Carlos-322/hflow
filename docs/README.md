@@ -19,6 +19,8 @@ and tradeoffs.
 
 ## Start here
 
+- **Realman 本地 MCAP 质检：** [使用说明](./local-realman-qc.md)，含 Windows 双击入口和报告说明。
+
 - **Evaluate real egocentric video:** follow the recommended
   [first-episode tutorial](./tutorials/evaluate-an-egocentric-episode.md) to run
   local deterministic checks and hosted model checks together.

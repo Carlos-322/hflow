@@ -8,6 +8,10 @@
 
 <h1 align="center">HFlow</h1>
 
+> 本地 Realman 质检：双击根目录 `启动HFlow质检.cmd`，或阅读 [使用说明](docs/local-realman-qc.md)。
+
+本机 WSL 环境入口：[配置、运行命令与日志位置](docs/local-wsl-setup.md)。
+
 <p align="center"><strong>Open source SDK for scalable multimodal data pipelines in robotics and physical AI</strong></p>
 
 <p align="center">

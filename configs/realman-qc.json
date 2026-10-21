@@ -1,0 +1,22 @@
+{
+  "profile": "Realman 本地技术预检 v1（待业务校准）",
+  "calibrated": false,
+  "required_cameras": [
+    "/left_head_wide_cam/color/image_raw/compressed",
+    "/left_arm_wide_cam/color/image_raw/compressed",
+    "/right_arm_wide_cam/color/image_raw/compressed"
+  ],
+  "states": {
+    "/mcap/slave_arm_left": {"field": "joint_state.position", "units": "unconfirmed"},
+    "/mcap/slave_arm_right": {"field": "joint_state.position", "units": "unconfirmed"}
+  },
+  "expected_hz": {},
+  "gap_factor": 3,
+  "sync_tolerance_ms": 50,
+  "black_pixel_threshold": 16,
+  "black_pixel_fraction": 0.98,
+  "freeze_mean_delta": 0.5,
+  "freeze_min_s": 2,
+  "blur_laplacian_threshold": 30,
+  "max_examples": 20
+}
